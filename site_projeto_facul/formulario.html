@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="formulario.css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <div>
+        <h1 id="titulo">Cadastro de Pessoas</h1>
+        <p id="subtitulo">Quer receber informaçoes atualizadas sobre o Alzheimer?</p>
+        <p id="subtitulo">Preencha o nosso formulário abaixo.</p>
+        <br>
+    </div>
+
+
+    <form>
+        <fieldset class="grupo">
+
+            <div class="campo">
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+
+
+            <div class="campo">
+                <label for="sobrenome"><strong>Sobrenome</strong></label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+
+        </fieldset>
+
+
+        <div class="campo">
+            <label><strong>Email</strong></label>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+
+        <div class="campo">
+            <label for="senioridade">
+                <strong>Gênero</strong>
+            </label>
+
+            <select id="senioridade">
+
+                <option selected disabled value="">Selecione...</option>
+                <option>Homem</option>
+                <option>Mulher</option>
+                <option>Prefiro não dizer</option>
+
+            </select>
+        </div>
+
+
+        <div class="campo">
+            <br>
+            <label>
+                <strong>Tem alguma dúvida? (Campo opcional)</strong>
+            </label>
+
+            <textarea name="experiencia" id="experiencia" rows="6" style="width: 26em;"></textarea>
+        </div>
+
+
+        <div>
+            <button><a href="confirmaformulario.html">Enviar Formulário</a></button>
+        </div>
+
+        <div class="form">
+            <img src="images/Formulários-img.png">
+        </div>
+
+
+    </form>
+
+    <div class="slider01">
+        <a href="index.html">
+            <img src="images/left-arrow.png" id="prev">
+        </a>
+    </div>
+
+</body>
+
+</html>
+
+
+
