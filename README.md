@@ -1,1 +1,1 @@
-Projeto de uma site cirado para faculdade sobre Alzheimer.
+Projeto de um site criado para faculdade sobre Alzheimer.
